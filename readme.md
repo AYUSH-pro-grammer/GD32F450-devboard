@@ -30,26 +30,24 @@ All components were selected to help me understand how each hardware block inter
 
 ## Hardware
 
-The board contains a number of hardware components which together form an embedded development platform.
+
+The board contains several hardware components that work together to form an embedded development platform.
 
 | Feature | Description |
-
 |---|---|
-
 | **Microcontroller** | GD32F450ZGT6 ARM Cortex-M4 |
 | **External SDRAM** | TSOP-II-54 SDRAM interface |
-| **SPI Flash** | W25Q128JVE 128Mbit serial flash |
+| **SPI Flash** | W25Q128JVE 128-Mbit serial flash |
 | **Power Management** | AP63203WU buck regulator |
 | **USB Connectivity** | USB Type-C receptacle |
 | **Removable Storage** | microSD card interface |
-| **FPC Interfaces** | Two 40-pin, 0.5mm-pitch connectors |
-| **Expansion Headers** | 2 × 40-pin headers and 1 × 8-pin header |
+| **FPC Interfaces** | Two 40-pin, 0.5 mm-pitch connectors |
+| **Expansion Headers** | Two 40-pin headers and one 8-pin header |
 | **PCB Stackup** | Four-layer PCB with dedicated internal power and ground planes |
 
+The board also includes supporting circuitry for clock generation, reset, power filtering and user interaction.
 
-The board also contains circuitry for various functions such as clocking, reset, power filtering and user interaction.
-
-External memory, removable storage and expansion interfaces have been provided to allow the board to be used for a variety of embedded development experiments.
+External memory, removable storage and expansion interfaces provide flexibility for a range of embedded development experiments.
 
 
 ## Project Images
