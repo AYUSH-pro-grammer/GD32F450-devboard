@@ -123,6 +123,10 @@ The complete component-level BOM is available in [`bom.csv`](bom.csv).
 | **Grand Total** | | **$53.7466** | |
 
 
+### Firmware Flashing
+
+The firmware is written in C using the GD32F4xx Standard Peripheral Library. To build it, install the ARM GNU Toolchain and add the required GD32F4xx library, startup files and linker script. Once compiled, generate a firmware image and flash it to the GD32F450ZGT6 using an SWD programmer such as a J-Link or CMSIS-DAP debugger. After flashing, connect to USART0 through PA9 (TX) and PA10 (RX) using a serial terminal configured for 115200 baud, 8-N-1. The initial firmware provides basic MCU information, an internal SRAM test, uptime reporting and a serial command interface. External SDRAM, SPI flash, microSD and USB drivers are not yet implemented.
+
 
 
 
